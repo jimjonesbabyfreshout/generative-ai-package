@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #007bff;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.container.dark-mode {
+  background-color: #1a1a1a;
+}
+
+h1, h2, h3.dark-mode {
+  color: #61dafb;
+}
+
+/* Real-Time Updates Styles */
+.real-time-updates {
+  margin-top: 20px;
+}
+
+.real-time-updates label {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.real-time-updates input, .real-time-updates button {
+  margin-bottom: 10px;
+}
+
+.real-time-updates button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.real-time-updates div {
+  margin-top: 15px;
+}
+
+.real-time-updates .pagination {
+  margin-top: 10px;
+}
+
+.real-time-updates button.dark-mode {
+  background-color: #61dafb;
+}
+
+/* Interactive Elements Styles */
+.interactive-elements {
+  margin-top: 20px;
+}
+
+.interactive-elements label {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.interactive-elements input, .interactive-elements button {
+  margin-bottom: 10px;
+}
+
+.interactive-elements button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.interactive-elements div {
+  margin-top: 15px;
+}
+
+.interactive-elements h3 {
+  color: #007bff;
+}
+
+.interactive-elements p {
+  color: #333;
+}
+
+.interactive-elements button.dark-mode {
+  background-color: #61dafb;
+}
+
+/* Dark Mode Switch Styles */
+.dark-mode-switch {
+  margin-top: 20px;
+}
+
+.dark-mode-switch label {
+  display: flex;
+  align-items: center;
+  color: #007bff;
+}
+
+.dark-mode-switch input {
+  margin-left: 10px;
+}

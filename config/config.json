@@ -1,0 +1,30 @@
+{
+  "api_key": "your_google_generative_ai_api_key",
+  "cache_duration": 3600,
+  "models": {
+    "default_model": "gemini-pro",
+    "multimodal_model": "gemini-pro-vision"
+  },
+  "advanced_options": {
+    "pagination": {
+      "items_per_page": 10
+    },
+    "safety_settings": [
+      {
+        "category": "HARM_CATEGORY_HARASSMENT",
+        "threshold": "BLOCK_ONLY_HIGH"
+      },
+      {
+        "category": "HARM_CATEGORY_HATE_SPEECH",
+        "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+      }
+    ],
+    "generation_config": {
+      "stop_sequences": ["red"],
+      "max_output_tokens": 200,
+      "temperature": 0.9,
+      "top_p": 0.1,
+      "top_k": 16
+    }
+  }
+}
